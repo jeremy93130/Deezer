@@ -107,3 +107,27 @@ header img {
     height: 650px;
     overflow: hidden;
 }
+
+.deezer {
+    display:flex;
+}
+
+.deezer div {
+    display: flexbox;
+    margin: 40px;
+    
+}
+
+.deezer h1 {
+    font-size: 30px;
+    
+}
+
+.deezer img {
+    height: 600px;
+    padding-left: 200px;
+}
+
+.droite {
+    padding-top: 40px;
+}
