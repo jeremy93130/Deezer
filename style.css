@@ -214,7 +214,7 @@ header img {
 
 .abo li.unchecked {
     opacity: 0.6;
-    list-style-type: "×";
+    list-style-type: "✗";
 }
 
 .tarif {
@@ -267,9 +267,13 @@ header img {
 .arnaqueur {
     display: flex;
     flex-direction: row;
-    background-color: #8e8e94;
+    background-color: #e1e1eee3;
     margin: 15px -10px;
     padding: 20px;
+}
+
+.arnaqueur div {
+    margin-left: 15%;
 }
 
 .red {
