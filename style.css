@@ -202,6 +202,7 @@ header img {
     text-align: center;
     margin: 5px;
     height: 500px;
+    width: 220px;
 }
 
 .abo li {
@@ -209,16 +210,12 @@ header img {
     list-style-type: "✓";
 }
 
-.abo a {
-    text-decoration: none;
-    color: #2d96c8;
-    position: relative;
-    top: 22%;
-    right: 25%;
+.abo li.unchecked {
+    color:
 }
 
 .shadow {
-    box-shadow: 12px 0 15px -4px black;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .2);
 }
 
 .bleue {
@@ -226,33 +223,27 @@ header img {
     color: white;
 }
 
-.bleue button {
+.shadow button {
     color: white;
     background-color: #ef5466;
     padding: 10px 40px;
     border-radius: 20px;
-    position: relative;
-    top: 15%;
-    left: 15%;
+    margin: 8px auto;
+}
+
+.shadow a {
+    margin: 8px auto;
+    display: inline-block;
+    text-decoration: none;
+    color: #2d96c8;
 }
 
 .bleue a {
     color: white;
-    position: relative;
-    top: 22%;
-    right: 33%;
 }
 
-.blackbutton {
-    color: white;
+.shadow button.blackbutton {
     background-color: darkgray;
-    border-radius: 17px;
-    font-size: 14px;
-    font-weight: bold;
-    position: relative;
-    padding: 10px 25px;
-    left: 25%;
-    top: 15%;
 }
 
 .arnaque {
