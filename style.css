@@ -195,10 +195,11 @@ header img {
     display: flex;
     border: 1px dotted red;
     justify-content: center;
+    font-weight: bold;
 }
 
 .abo div {
-    text-align:center;
+    text-align: center;
     margin: 5px;
     padding: 15px;
     height: 400px;
@@ -207,7 +208,7 @@ header img {
 
 .abo li {
     padding: 4px;
-    list-style-type: symbols() ;
+    list-style-type: "✓";
 }
 
 .bleue {
@@ -215,6 +216,10 @@ header img {
     color: white;
 }
 
+.blackbutton {
+    border-radius: 14px;
+    font-size: 20px;
+}
 
 .arnaque {
     display: flex;
@@ -230,25 +235,33 @@ header img {
     padding: 20px;
 }
 
-.arnaqueur p {
-}
+.arnaqueur p {}
 
 .red {
     font-size: 24px;
-    color:#ef5466;
+    color: #ef5466;
     margin-bottom: 5px;
 }
-
 
 .black {
     display: flex;
     justify-content: space-between;
     color: white;
     background-color: black;
+    margin: auto;
+}
+
+.black h1 {
+    padding-left: 40px;
 }
 
 .black li {
     list-style: none;
     text-decoration: none;
     padding: 20px 0;
+}
+
+.black a {
+    color: white;
+    text-decoration: none;
 }
