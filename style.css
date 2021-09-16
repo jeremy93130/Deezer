@@ -193,9 +193,8 @@ header img {
 }
 
 .next div {
-    border: 1px dotted lightgray;
+    box-shadow: 0 2px 2px 2px black;
     text-align: center;
-    height: 500px;
     padding: 30px;
 }
 
@@ -210,10 +209,30 @@ header img {
     padding: 5px;
 }
 
-.infos {
- display: flexbox;
- flex-direction: column;
- 
+.next .light {
+    color:lightgray;
+    opacity: 0.9;
+    list-style: "X";
 }
+
+.infos {
+ display: flex;
+ flex-direction: column;
+}
+
+.infos button {
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 16px;
+    box-shadow: none;
+    font-size: 15px;
+    padding: 10px 25px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+
 
 
