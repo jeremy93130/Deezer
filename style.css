@@ -202,7 +202,7 @@ header img {
     text-align: center;
     margin: 5px;
     padding: 15px;
-    height: 400px;
+    height: 550px;
     border: 1px solid darkgray;
 }
 
@@ -216,13 +216,44 @@ header img {
     color: white;
 }
 
+.bleue button {
+    color: white;
+    background-color: #ef5466;
+    padding: 10px 40px;
+    border-radius: 20px;
+    position: relative;
+    top: 15%;
+    left: 15%;
+}
+
+.bleue a {
+    color: white;
+    position: relative;
+    top: 22%;
+}
+
 .blackbutton {
-    border-radius: 14px;
-    font-size: 20px;
+    color: white;
+    background-color: darkgray;
+    border-radius: 17px;
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    padding: 10px 25px;
+    left: 25%;
+    top: 15%;
+}
+
+.abo a {
+    text-decoration: none;
+    color: #2d96c8;
+    position: relative;
+    top: 22%;
+    right: 25%;
 }
 
 .arnaque {
-    display: flex;
+    display: flexbox;
     color: black;
     flex-direction: column;
     flex-wrap: wrap;
@@ -230,12 +261,14 @@ header img {
 
 .arnaqueur {
     display: flex;
+    flex-direction: row;
+    
     background-color: #8e8e94;
-    margin: -10px;
+    margin: 15px -10px;
     padding: 20px;
 }
 
-.arnaqueur p {}
+.arnaqueur p { flex-wrap: wrap;}
 
 .red {
     font-size: 24px;
