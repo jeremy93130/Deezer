@@ -3,6 +3,10 @@
     src: url();
 }
 
+section {
+    display: flexbox;
+}
+
 header {
     display: flex;
     align-items: stretch;
@@ -181,58 +185,32 @@ header img {
     font-weight: lighter;
     padding-bottom: 20px;
 }
-.premium {
-    display: flexbox;
-    margin: auto;
+
+#abonnement h1 {
+    text-align: center;
+    margin: 60px 0 30px 0;
 }
-.next {
+
+.abo {
     display: flex;
+    border: 1px dotted red;
     justify-content: center;
-    margin: auto;
-    border: 1px solid black;
 }
 
-.next div {
-    box-shadow: 0 2px 2px 2px black;
-    text-align: center;
-    padding: 30px;
+.abo div {
+    text-align:center;
+    margin: 5px;
+    padding: 15px;
+    height: 400px;
+    border: 1px solid darkgray;
 }
 
-.premium h1 {
-    text-align: center;
-    margin: 100px 0 30px 0;
+.abo li {
+    padding: 4px;
+    list-style-type: symbols() ;
 }
 
-.next li {
-    color: #8e8e94;
-    list-style: "✔";
-    padding: 5px;
+.bleue {
+    background-color: #2d96c8;
+    color: white;
 }
-
-.next .light {
-    color:lightgray;
-    opacity: 0.9;
-    list-style: "X";
-}
-
-.infos {
- display: flex;
- flex-direction: column;
-}
-
-.infos button {
-    color: black;
-    font-weight: bold;
-    background-color: white;
-    border: 1px solid black;
-    border-radius: 16px;
-    box-shadow: none;
-    font-size: 15px;
-    padding: 10px 25px;
-    margin-left: 10px;
-    margin-top: 30px;
-}
-
-
-
-
