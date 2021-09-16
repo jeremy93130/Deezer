@@ -76,7 +76,7 @@ header img {
 }
 
 .marge {
-    padding-left: 150px;
+    margin-left: 200px;
 }
 
 .pinky {
@@ -103,31 +103,58 @@ header img {
     margin-left: 10px;
 }
 
-.musique img {
-    height: 650px;
+.pic {
+    height: 450px;
+    margin-right: 100px;
     overflow: hidden;
 }
 
+.pic img {
+    height: 650px;
+}
+
 .deezer {
-    display:flex;
+    display: flex;
+    margin-right: 200px;
 }
 
 .deezer div {
     display: flexbox;
-    margin: 40px;
-    
 }
 
 .deezer h1 {
     font-size: 30px;
-    
 }
 
 .deezer img {
     height: 600px;
-    padding-left: 200px;
+    margin-left: 200px;
+    margin-right: 30px;
+}
+
+.deezer div {
+    text-align: justify;
+}
+
+.gauche {
+    padding-top: 100px;
 }
 
 .droite {
-    padding-top: 40px;
+    padding-top: 150px;
+    padding-left: 40px;
+    margin-top: 10px;
 }
+
+.rose {
+    display: flex;
+    margin: 0 -10px;
+    background-color: rgb(243, 62, 122);
+    color: white;
+    font-weight: bold;
+}
+
+.rose div  {
+    margin:0;
+}
+
