@@ -214,3 +214,41 @@ header img {
     background-color: #2d96c8;
     color: white;
 }
+
+
+.arnaque {
+    display: flex;
+    color: black;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.arnaqueur {
+    display: flex;
+    background-color: #8e8e94;
+    margin: -10px;
+    padding: 20px;
+}
+
+.arnaqueur p {
+}
+
+.red {
+    font-size: 24px;
+    color:#ef5466;
+    margin-bottom: 5px;
+}
+
+
+.black {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+}
+
+.black li {
+    list-style: none;
+    text-decoration: none;
+    padding: 20px 0;
+}
