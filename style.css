@@ -193,22 +193,32 @@ header img {
 
 .abo {
     display: flex;
-    border: 1px dotted red;
     justify-content: center;
+    border: 1px dotted red;
     font-weight: bold;
 }
 
 .abo div {
     text-align: center;
     margin: 5px;
-    padding: 15px;
-    height: 550px;
-    border: 1px solid darkgray;
+    height: 500px;
 }
 
 .abo li {
     padding: 4px;
     list-style-type: "✓";
+}
+
+.abo a {
+    text-decoration: none;
+    color: #2d96c8;
+    position: relative;
+    top: 22%;
+    right: 25%;
+}
+
+.shadow {
+    box-shadow: 12px 0 15px -4px black;
 }
 
 .bleue {
@@ -230,6 +240,7 @@ header img {
     color: white;
     position: relative;
     top: 22%;
+    right: 33%;
 }
 
 .blackbutton {
@@ -244,14 +255,6 @@ header img {
     top: 15%;
 }
 
-.abo a {
-    text-decoration: none;
-    color: #2d96c8;
-    position: relative;
-    top: 22%;
-    right: 25%;
-}
-
 .arnaque {
     display: flexbox;
     color: black;
@@ -262,13 +265,10 @@ header img {
 .arnaqueur {
     display: flex;
     flex-direction: row;
-    
     background-color: #8e8e94;
     margin: 15px -10px;
     padding: 20px;
 }
-
-.arnaqueur p { flex-wrap: wrap;}
 
 .red {
     font-size: 24px;
