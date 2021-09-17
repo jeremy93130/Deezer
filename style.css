@@ -370,7 +370,9 @@ footer nav {
 
 .logos {
     display: flex;
-    
+position: relative;
+margin: auto;
+
 }
 
 .apple {
