@@ -186,7 +186,7 @@ header img {
     padding-bottom: 20px;
 }
 
-#abonnement h1 {
+.abonnement h1 {
     text-align: center;
     margin: 60px 0 30px 0;
 }
@@ -335,18 +335,24 @@ footer {
     justify-content: space-between;
     color: white;
     background-color: black;
-    margin: -10px;
 }
 
 footer div {
-    margin: 200px 100px;
+    margin: 200px 0 200px 50px;
 }
 
-footer img.logo {
+footer .apple {
     height: 50px;
     position: absolute;
     left: 40%;
     margin-top: 40px;
+}
+
+footer .google {
+    height: 50px;
+    position: absolute;
+    left:53%;
+    margin-top: 40px;   
 }
 
 footer h1 {
@@ -355,17 +361,27 @@ footer h1 {
 }
 
 footer ul {
-    margin: 20px;
-    padding: 0;
+    display: inline-block;
+    margin: 0;
+    padding-left: 10px;
 }
 
 footer li {
+    width: 300px;
     list-style: none;
     text-decoration: none;
-    padding: 10px 10px 0 0 ;
+    padding: 10px 10px 0 0;
 }
 
 footer a {
     color: white;
     text-decoration: none;
+}
+
+
+.logo {
+    height: 50px;
+    position:relative;
+    right: 60%;
+    top: 60%;
 }
