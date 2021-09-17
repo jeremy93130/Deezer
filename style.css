@@ -345,14 +345,43 @@ footer {
 
 footer nav {
     display: flex;
-    align-items: center;
     justify-content: space-between;
     width: 100%;
-    margin-top: 120px;
+    margin: 120px 50px;
 }
 
 .contact {
+    display: flex;
+    flex-direction: column;
+    color: rgba(189, 173, 173, 0.411);
+}
 
+.contact ul {
+    list-style: none;
+    padding:0;
+}
+.contact li {
+    padding: 10px 0;
+}
+
+#footer h1 {
+    margin: 0;
+}
+
+.logos {
+    display: flex;
+    
+}
+
+.apple {
+    position: absolute;
+    left: 40%;
+}
+
+.google {
+    position: relative;
+    left: 50%;
+    top: 30%;
 }
 
 footer a {
