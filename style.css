@@ -3,10 +3,6 @@
     src: url();
 }
 
-body {
-    margin: 0
-}
-
 section {
     display: flexbox;
 }
@@ -159,7 +155,6 @@ header img {
     position: relative;
     bottom: 65px;
 }
-
 
 .droite {
     padding-top: 150px;
