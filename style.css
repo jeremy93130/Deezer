@@ -3,6 +3,10 @@
     src: url();
 }
 
+body {
+    margin: 0
+}
+
 section {
     display: flexbox;
 }
@@ -11,7 +15,7 @@ header {
     display: flex;
     align-items: stretch;
     justify-content: space-between;
-    border-bottom: 1px dotted black;
+    border-bottom: 1px dotted darkgray;
 }
 
 header nav {
@@ -67,7 +71,7 @@ header img {
 }
 
 .musique div {
-    padding-top: 40px;
+    margin-top: -3px;
 }
 
 .musique h1 {
@@ -79,7 +83,7 @@ header img {
 .musique h2 {
     color: #ef5466;
     margin-top: 4px;
-    font-size: 25px;
+    font-size: 22px;
     font-weight: bold;
 }
 
@@ -112,8 +116,9 @@ header img {
 }
 
 .pic {
-    height: 450px;
-    margin-right: 100px;
+    height: 430px;
+    width: 100%;
+    margin-right: 30px;
     overflow: hidden;
 }
 
@@ -130,23 +135,31 @@ header img {
     display: flexbox;
 }
 
-.deezer h1 {
-    font-size: 30px;
-}
-
 .deezer img {
-    height: 600px;
-    margin-left: 200px;
-    margin-right: 30px;
+    height: 550px;
+    margin: 50px 30px 50px 200px;
 }
 
 .deezer div {
     text-align: justify;
 }
 
+.deezer p {
+    color: darkgray;
+    text-align: justify;
+    font-size: 15px;
+}
+
 .gauche {
     padding-top: 100px;
 }
+
+.gauche h1 {
+    font-size: 30px;
+    position: relative;
+    bottom: 65px;
+}
+
 
 .droite {
     padding-top: 150px;
@@ -156,7 +169,8 @@ header img {
 
 .rose {
     display: flex;
-    margin: 0 -10px;
+    margin: 0;
+    width: 100%;
     background-color: #ef5466;
     color: white;
 }
@@ -191,13 +205,17 @@ header img {
     margin: 60px 0 30px 0;
 }
 
+.abonnement {
+    margin-top: 100px;
+}
+
 .abo {
     display: flex;
     justify-content: center;
     font-weight: bold;
 }
 
-.abo div {
+.abo>div {
     text-align: center;
     margin: 5px;
     height: 500px;
@@ -214,6 +232,14 @@ header img {
 .abo li.unchecked {
     opacity: 0.6;
     list-style-type: "✗";
+}
+
+.abonnement>p {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: darkgray;
+    padding-top: 15px;
 }
 
 .tarif {
@@ -288,6 +314,7 @@ header img {
     display: flex;
     flex-direction: row;
     background-color: #e1e1eee3;
+    width: 1349px;
     margin: 5px -10px;
     padding: 5px 0;
 }
@@ -366,8 +393,9 @@ footer nav {
 
 .contact ul {
     list-style: none;
-    padding:0;
+    padding: 0;
 }
+
 .contact li {
     padding: 10px 0;
 }
@@ -378,9 +406,9 @@ footer nav {
 
 .logos {
     display: flex;
-position: relative;
-margin: auto;
-height:100px;
+    position: relative;
+    margin: auto;
+    height: 100px;
 }
 
 .apple {
